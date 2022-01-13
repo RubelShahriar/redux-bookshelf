@@ -7,6 +7,7 @@ import {
 import { useDispatch } from "react-redux";
 import { addToFinishedList, addToReadingList } from "../../redux/action/bookAction";
 import styles from './book.module.css'
+
 const SingleBook = (props) => {
   const { title, author, coverImageUrl, synopsis } = props.book;
   console.log(props.book.id)
